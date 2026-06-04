@@ -383,6 +383,15 @@
     .cd-num{font-size:40px;}
     .wax-seal-img{width:100px;height:100px;}
   }
+    .hero-bg {
+    position: absolute; inset: 0;
+    background-image: url('bg1.PNG');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.18) grayscale(0); */
+    z-index: 0;
+  }
 </style>
 </head>
 <body>
@@ -437,6 +446,9 @@
 
 <!-- ════════════════════════════════ HERO ════════════════════════════════ -->
 <section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
   <div class="blob blob-1"></div>
   <div class="blob blob-2"></div>
   <div class="blob blob-3"></div>
